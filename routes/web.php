@@ -56,5 +56,8 @@ Route::get('/ff/f1', function () {
 Route::get('/ff/f2', function () {
     return view('ff.f2');
 });
+Route::get('/hh/h1', function () {
+    return view('hh.h1');
+});
 
 require __DIR__ . '/auth.php';
