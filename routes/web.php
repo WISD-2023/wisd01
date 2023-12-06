@@ -51,4 +51,8 @@ Route::get('/dd/d2',function (){
     return view('dd.d2');
 });
 
+Route::get('/ee/e1',function (){
+    return view('ee.e1');
+});
+
 require __DIR__.'/auth.php';
