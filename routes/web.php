@@ -63,4 +63,20 @@ Route::get('/hh/h2', function () {
     return view('hh.h2');
 });
 
+Route::get('/ee/e1',function (){
+    return view('ee.e1');
+});
+
+Route::get('/ee/e2',function (){
+    return view('ee.e2');
+});
+
+Route::get('/gg/g1',function (){
+    return view('gg.g1');
+});
+
+Route::get('/gg/g1',function (){
+    return view('gg.g2');
+});
+
 require __DIR__ . '/auth.php';
