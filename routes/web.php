@@ -55,4 +55,8 @@ Route::get('/ee/e1',function (){
     return view('ee.e1');
 });
 
+Route::get('/ee/e2',function (){
+    return view('ee.e2');
+});
+
 require __DIR__.'/auth.php';
