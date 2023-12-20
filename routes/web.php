@@ -87,6 +87,10 @@ Route::get('/gg/g1',function (){
 });
 
 Route::get('/ddd/d1',function (){
+    return view('ddd.d1');
+});
+
+Route::get('/ddd/d2',function (){
     return view('ddd.d2');
 });
 
