@@ -94,4 +94,12 @@ Route::get('/ddd/d2',function (){
     return view('ddd.d2');
 });
 
+Route::get('/ccc/c1',function (){
+    return view('ccc.c1');
+});
+
+Route::get('/ccc/c2',function (){
+    return view('ccc.c2');
+});
+
 require __DIR__ . '/auth.php';
