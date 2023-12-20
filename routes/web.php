@@ -86,4 +86,8 @@ Route::get('/gg/g1',function (){
     return view('gg.g2');
 });
 
+Route::get('/ccc/c1',function (){
+    return view('ccc.c1');
+});
+
 require __DIR__ . '/auth.php';
